@@ -25,7 +25,6 @@ export default class App extends Component {
 		largeImageURL: '',
 		total: 0,
 	}
-	
 	componentDidUpdate(_, prevState) {
     const { search, page } = this.state;
 
